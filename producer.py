@@ -18,7 +18,7 @@ def retrieve_comments(video_id, max_comments=200):
     return comment_list
 
 # ID của video cần lấy bình luận
-youtube_video_id = "7u98x3_r4_A"
+youtube_video_id = "YwkOHnq_T7o"
 comment_data = retrieve_comments(youtube_video_id)
 
 # In ra bình luận cuối cùng để kiểm tra
@@ -26,7 +26,7 @@ print(comment_data[-1])
 
 # Cấu hình địa chỉ server
 HOST = 'localhost'
-PORT = 12345
+PORT = 26052004
 
 # Tạo và thiết lập server socket
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
