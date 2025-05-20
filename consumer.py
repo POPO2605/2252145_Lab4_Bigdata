@@ -13,7 +13,7 @@ os.environ["PYSPARK_DRIVER_PYTHON"] = "python"
 
 # Khai báo địa chỉ kết nối socket
 SERVER_HOST = 'localhost'
-SERVER_PORT = 12345
+SERVER_PORT = 26052004 
 
 # Tạo SparkSession
 spark = SparkSession.builder.appName("YouTubeCommentClassifier").getOrCreate()
